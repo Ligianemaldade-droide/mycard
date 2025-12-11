@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartinha 💛</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <audio id="music" src="musica.mp3"></audio>
+
+    <!-- Tela de Senha -->
+    <div id="senha-container">
+        <h2>Digite a senha 🔐</h2>
+        <p class="dica">Dica: uma música insuperável do Luan Santana</p>
+
+        <input type="password" id="senha" placeholder="Senha...">
+        <button onclick="verificarSenha()">Entrar</button>
+        <p id="erro"></p>
+    </div>
+
+    <!-- Cartinha -->
+    <div id="carta-container" style="display:none;">
+        <div class="envelope" onclick="abrirEnvelope()">
+            <img src="envelope.png">
+        </div>
+
+        <div id="mensagem" class="mensagem">
+            <p>
+                Hannah,
+              Hoje é um dia especial, e eu não poderia deixar de celebrar você. Quero que saiba que vou estar sempre ao seu lado, torcendo por cada conquista sua e vendo você alcançar tudo aquilo que merece.
+
+Que você caminhe com sabedoria, tomando cuidado com as escolhas que faz e com as companhias que escolhe para sua vida. Que seu coração permaneça forte e cheio de fé, mesmo diante dos desafios.
+
+“Confia no Senhor de todo o teu coração, e não te estribes no teu próprio entendimento; reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.” – Provérbios 3:5-6
+
+Parabéns, amiga! Que seu ano seja cheio de alegrias, aprendizado e momentos inesquecíveis.
+
+Com carinho,
+              Ligiane.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
